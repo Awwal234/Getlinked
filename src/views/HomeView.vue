@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import PaymentSide from '@/components/PaymentSide.vue'
-import OrderSummary from '@/components/OrderSummary.vue';
+import HeaderView from '../components/HeaderView.vue'
+import HeroSection from '@/components/HeroSection.vue';
 </script>
 
 <template>
-  <div class="bg-[#fff] space-x-[18px] hidden lg:flex w-[100%]">
-    <PaymentSide/>
-    <OrderSummary/>
-  </div>
+  <main class="bg-[#150328]">
+    <HeaderView />
+    <HeroSection />
+  </main>
 </template>

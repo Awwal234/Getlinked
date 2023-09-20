@@ -7,24 +7,60 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-html{
-  height: 100%;
+
+@font-face {
+  font-family: 'clashmd';
+  src: url(./fonts/ClashDisplay-Medium.otf) format("truetype");
 }
-body, main{
-  min-height: 100vh;
+
+@font-face {
+  font-family: 'clashrg';
+  src: url(./fonts/ClashDisplay-Regular.otf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.inter {
   font-family: 'Inter', sans-serif;
 }
-body::-webkit-scrollbar{
-  width:6px;
+
+.clashmd {
+  font-family: 'clashmd';
 }
-body::-webkit-scrollbar-track{
-  width:3px;
-  background:transparent;
+
+.clashrg {
+  font-family: 'clashrg';
 }
-body::-webkit-scrollbar-thumb{
-  width:3px;
-  background:#32C770;
-  border-radius: 10px;
+
+html {
+  height: 100%;
+}
+
+body,
+main {
+  min-height: 100vh;
+}
+
+.mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  width: 3px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: black;
+  border-radius: 0px;
 }
 </style>
