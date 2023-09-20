@@ -14,6 +14,7 @@ const goContact = () => {
 }
 const goHome = () => {
     router.push('/')
+    window.scroll(0, 0)
 }
 const goRegister = () => {
     router.push('/register')
@@ -37,14 +38,23 @@ onMounted(() => {
             </div>
             <div class="items-center nav_hold">
                 <div class="flex relative left-[-121px] space-x-[56px]">
-                    <div class="text-[#fff] mont text-[16px] font-[400]">
+                    <div :class="contactCheck ? 'hidden' : 'block'" class="text-[#fff] mont text-[16px] font-[400]">
                         <a href="#timeline">Timeline</a>
                     </div>
-                    <div class="text-[#fff] mont text-[16px] font-[400]">
+                    <div :class="contactCheck ? 'block' : 'hidden'" class="text-[#fff] mont text-[16px] font-[400]">
+                        <a href="https://getlinked-orpin.vercel.app/#timeline">Timeline</a>
+                    </div>
+                    <div :class="contactCheck ? 'hidden' : 'block'" class="text-[#fff] mont text-[16px] font-[400]">
                         <a href="#overview">Overview</a>
                     </div>
-                    <div class="text-[#fff] mont text-[16px] font-[400]">
+                    <div :class="contactCheck ? 'block' : 'hidden'" class="text-[#fff] mont text-[16px] font-[400]">
+                        <a href="https://getlinked-orpin.vercel.app/#overview">Overview</a>
+                    </div>
+                    <div :class="contactCheck ? 'hidden' : 'block'" class="text-[#fff] mont text-[16px] font-[400]">
                         <a href="#faqs">FAQs</a>
+                    </div>
+                    <div :class="contactCheck ? 'block' : 'hidden'" class="text-[#fff] mont text-[16px] font-[400]">
+                        <a href="https://getlinked-orpin.vercel.app/#faqs">FAQs</a>
                     </div>
                     <div @click="goContact" :class="contactCheck ? 'contact' : 'text-[#fff]'"
                         class="cursor-pointer mont text-[16px] font-[400]">
