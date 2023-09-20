@@ -103,7 +103,7 @@ import TimeLine from './TimeLine.vue';
             </div>
             <!--second flex end-->
             <div class="lg:w-[50%] mt-[66px] lg:mt-[0px] w-fit h-fit lg:mx-0 mx-auto">
-                <img src="../../img/faqs.png" class="" />
+                <img src="/img/faqs.png" class="" />
             </div>
         </div>
         <!---->

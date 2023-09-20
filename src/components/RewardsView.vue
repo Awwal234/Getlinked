@@ -23,10 +23,10 @@ import PartnersSector from './PartnersSector.vue'
             <!---->
             <div class="flex flex-col lg:flex-row space-y-[51px] lg:space-y-[0px] lg:space-x-[37px]">
                 <div class="lg:w-[40%] h-fit lg:mx-0 w-fit mx-auto">
-                    <img loading="lazy" src="../../img/trophy.png" class="md:h-[482px] object-contain h-[282px]" />
+                    <img loading="lazy" src="/img/trophy.png" class="md:h-[482px] object-contain h-[282px]" />
                 </div>
                 <div class="lg:w-[60%] h-fit md:w-[60%] w-fit mx-auto lg-mx-0">
-                    <img loading="lazy" src="../../img/Rewards.png"
+                    <img loading="lazy" src="/img/Rewards.png"
                         class="lg:w-full md:h-[494px] w-full h-[209.733px] object-contain" />
                 </div>
             </div>
@@ -39,7 +39,7 @@ import PartnersSector from './PartnersSector.vue'
 
 <style scoped>
 .bg_space {
-    background-image: url("../../img/photoburn.png"), lightgray 0px -0.093px / 100% 109.967%;
+    background-image: url("/img/photoburn.png"), lightgray 0px -0.093px / 100% 109.967%;
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;

@@ -34,16 +34,16 @@
                 <div class="flex-row flex items-center space-x-[19px]">
                     <div class="text-[#d434fe] mont text-[12px] leading-[172.4%] font-[600]">Follow us</div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/instagram.svg" class="cursor-pointer" />
+                        <img src="/img/instagram.svg" class="cursor-pointer" />
                     </div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/twitter.svg" class="cursor-pointer" />
+                        <img src="/img/twitter.svg" class="cursor-pointer" />
                     </div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/facebook.svg" class="cursor-pointer" />
+                        <img src="/img/facebook.svg" class="cursor-pointer" />
                     </div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/linkedin.svg" class="cursor-pointer" />
+                        <img src="/img/linkedin.svg" class="cursor-pointer" />
                     </div>
                 </div>
             </div>
@@ -52,11 +52,11 @@
                 class="md:w-[25%] md:ml-[40px] mt-[32px] md:mt-[0px] flex flex-col space-y-[10px] md:space-y-[21px] w-full">
                 <div class="text-[#d434fe] mont text-[14px] leading-[172.4%] font-[600]">Contact Us</div>
                 <div class="flex space-x-[16px]">
-                    <div class="w-fit h-fit"><img src="../../img/phone.svg" class="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/phone.svg" class="" /></div>
                     <div class="text-[#fff] font-[400] mont text-[12px]">+234 679 81819</div>
                 </div>
                 <div class="flex space-x-[16px]">
-                    <div class="w-fit h-fit"><img src="../../img/location.svg" class="" /></div>
+                    <div class="w-fit h-fit"><img src="/img/location.svg" class="" /></div>
                     <div class="text-[#fff] font-[400] mont text-[12px]">27,Alara Street Yaba 100012 Lagos State</div>
                 </div>
             </div>

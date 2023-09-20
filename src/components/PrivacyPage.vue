@@ -13,7 +13,7 @@ import FooterSection from './FooterSection.vue'
                         Privacy Policy and <span class="text-[#d434fe]">Terms</span>
                     </div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/star.png"
+                        <img src="/img/star.png"
                             class="w-[8px] relative lg:top-[-60px] left-[40px] opacity-[0.5] h-[10px] md:w-[26px] md:h-[32px]" />
                     </div>
                 </div>
@@ -45,13 +45,13 @@ import FooterSection from './FooterSection.vue'
                         </div>
                     </div>
                     <div class="flex mb-[24px] md:mb-[18px] items-baseline space-x-[14px]">
-                        <div><img src="../../img/check.svg" class="" /></div>
+                        <div><img src="/img/check.svg" class="" /></div>
                         <div class="text-[#fff] mont text-[12px] md:text-[14px] leading-[175.9%] md:leading-[216.4%]">
                             The Standard License grants you a non-exclusive right to navigate and register for our event
                         </div>
                     </div>
                     <div class="flex items-baseline space-x-[14px]">
-                        <div><img src="../../img/check.svg" class="" /></div>
+                        <div><img src="/img/check.svg" class="" /></div>
                         <div class="text-[#fff] mont text-[12px] md:text-[14px] leading-[175.9%] md:leading-[216.4%]">
                             You are licensed to use the item available at any free source sites, for your project
                             developement
@@ -66,7 +66,7 @@ import FooterSection from './FooterSection.vue'
             </div>
             <!--second flex end-->
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
-                <img loading="lazy" src="../../img/lockboy.png" class="h-[447px] object-contain md:h-[952px]" />
+                <img loading="lazy" src="/img/lockboy.png" class="h-[447px] object-contain md:h-[952px]" />
             </div>
         </div>
         <!---->
@@ -80,7 +80,7 @@ import FooterSection from './FooterSection.vue'
 }
 
 .bg_space {
-    background-image: url("../../img/privacybg.png");
+    background-image: url("/img/privacybg.png");
     background-repeat: no-repeat;
     background-position: bottom left;
     object-fit: contain;

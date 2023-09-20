@@ -42,7 +42,7 @@ const goBack = () => {
         <HeaderView />
         <div class="px-[54px] md:px-[128px]">
             <div @click="goBack" class="lg:hidden pt-[47px]">
-                <img src="../../img/back.svg" class="" />
+                <img src="/img/back.svg" class="" />
             </div>
             <div class="lg:flex lg:items-top w-full pt-[41px] md:pt-[201px]">
                 <div class="lg:w-[40%] hidden lg:block">
@@ -66,16 +66,16 @@ const goBack = () => {
                     </div>
                     <div class="flex-row flex items-center space-x-[19px]">
                         <div class="w-fit h-fit">
-                            <img src="../../img/instagram.svg" class="cursor-pointer" />
+                            <img src="/img/instagram.svg" class="cursor-pointer" />
                         </div>
                         <div class="w-fit h-fit">
-                            <img src="../../img/twitter.svg" class="cursor-pointer" />
+                            <img src="/img/twitter.svg" class="cursor-pointer" />
                         </div>
                         <div class="w-fit h-fit">
-                            <img src="../../img/facebook.svg" class="cursor-pointer" />
+                            <img src="/img/facebook.svg" class="cursor-pointer" />
                         </div>
                         <div class="w-fit h-fit">
-                            <img src="../../img/linkedin.svg" class="cursor-pointer" />
+                            <img src="/img/linkedin.svg" class="cursor-pointer" />
                         </div>
                     </div>
                 </div>
@@ -119,16 +119,16 @@ const goBack = () => {
                         </div>
                         <div class="flex-row w-fit md:hidden mx-auto flex items-center space-x-[19px]">
                             <div class="w-fit h-fit">
-                                <img src="../../img/instagram.svg" class="cursor-pointer" />
+                                <img src="/img/instagram.svg" class="cursor-pointer" />
                             </div>
                             <div class="w-fit h-fit">
-                                <img src="../../img/twitter.svg" class="cursor-pointer" />
+                                <img src="/img/twitter.svg" class="cursor-pointer" />
                             </div>
                             <div class="w-fit h-fit">
-                                <img src="../../img/facebook.svg" class="cursor-pointer" />
+                                <img src="/img/facebook.svg" class="cursor-pointer" />
                             </div>
                             <div class="w-fit h-fit">
-                                <img src="../../img/linkedin.svg" class="cursor-pointer" />
+                                <img src="/img/linkedin.svg" class="cursor-pointer" />
                             </div>
                         </div>
                         <div class="md:hidden pt-[30px]"></div>
@@ -145,7 +145,7 @@ const goBack = () => {
 
 <style scoped>
 main {
-    background: url('../../img/bgcontact.png');
+    background: url('/img/bgcontact.png');
     background-repeat: no-repeat;
     background-position: contain;
     background-size: 100% 100%;

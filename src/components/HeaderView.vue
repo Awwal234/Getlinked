@@ -58,7 +58,7 @@ onMounted(() => {
                 </div>
             </div>
             <div @click="board = !board" class="nav">
-                <img src="../../toggle.svg" class="" />
+                <img src="/toggle.svg" class="" />
             </div>
             <!---->
         </div>
@@ -70,7 +70,7 @@ onMounted(() => {
                 <div class="flex mb-[57px] items-center justify-between">
                     <div></div>
                     <div @click="board = !board" class="w-fit h-fit">
-                        <img src="../../img/X.png" class="w-[23px] h-[23px]" />
+                        <img src="/img/X.png" class="w-[23px] h-[23px]" />
                     </div>
                 </div>
                 <!---->

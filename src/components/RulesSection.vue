@@ -13,7 +13,7 @@ import JudgingView from './JudgingView.vue';
                         Rules and <span class="text-[#d434fe]">Guidelines</span>
                     </div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/star.png"
+                        <img src="/img/star.png"
                             class="w-[8px] relative lg:top-[-60px] left-[40px] opacity-[0.5] h-[10px] md:w-[26px] md:h-[32px]" />
                     </div>
                 </div>
@@ -28,7 +28,7 @@ import JudgingView from './JudgingView.vue';
             </div>
             <!--second flex end-->
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
-                <img src="../../img/womanverify.png" class="" />
+                <img src="/img/womanverify.png" class="" />
             </div>
         </div>
         <!---->
@@ -42,7 +42,7 @@ import JudgingView from './JudgingView.vue';
 }
 
 .bg_space {
-    background-image: url("../../img/pbgone.png");
+    background-image: url("/img/pbgone.png");
     background-repeat: no-repeat;
     background-position: cover;
     background-size: 100% 100%;

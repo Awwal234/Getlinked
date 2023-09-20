@@ -19,7 +19,7 @@ import PrivacyPage from './PrivacyPage.vue'
                 </div>
             </div>
             <div class="w-full h-fit">
-                <img loading="lazy" src="../../img/partnerbg.png" class="w-full md:h-[560px] object-contain h-[145.9px]" />
+                <img loading="lazy" src="/img/partnerbg.png" class="w-full md:h-[560px] object-contain h-[145.9px]" />
             </div>
         </div>
         <!---->

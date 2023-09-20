@@ -7,7 +7,7 @@ import RulesSection from './RulesSection.vue';
         <div
             class="md:pt-[61px] linked_border lg:items-center space-y-[22.15px] lg:space-x-[40px] lg:space-y-[0px] pt-[29px] pb-[55px] md:pb-[62px] w-full px-[57px] lg:flex md:px-[128px]">
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
-                <img src="../../img/globe.png" class="" />
+                <img src="/img/globe.png" class="" />
             </div>
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
                 <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
@@ -16,7 +16,7 @@ import RulesSection from './RulesSection.vue';
                         Introduction to getlinked <span class="text-[#d434fe]">tech Hackathon 1.0</span>
                     </div>
                     <div class="w-fit h-fit">
-                        <img src="../../img/starpu.png" class="w-[8px] h-[10px] md:w-[30px] md:h-[36px]" />
+                        <img src="/img/starpu.png" class="w-[8px] h-[10px] md:w-[30px] md:h-[36px]" />
                     </div>
                 </div>
                 <div class="text-center text-[#fff] md:text-[14px] mont text-[13px] mx-auto lg:mx-0 lg:text-left">

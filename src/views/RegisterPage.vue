@@ -93,11 +93,11 @@ const goBack = () => {
         <HeaderView />
         <div class="px-[54px] md:px-[128px]">
             <div @click="goBack" class="lg:hidden pt-[47px]">
-                <img src="../../img/back.svg" class="" />
+                <img src="/img/back.svg" class="" />
             </div>
             <div class="lg:flex lg:items-center lg:items-top w-full pt-[41px] md:pt-[201px]">
                 <div class="lg:w-[40%] hidden lg:block">
-                    <img src="../../img/manthreed.png" class="w-[100%] object-contain h-[717px]" />
+                    <img src="/img/manthreed.png" class="w-[100%] object-contain h-[717px]" />
                 </div>
                 <!---->
                 <div class="w-full md:mx-auto lg:mx-0 md:w-[80%] lg:w-[60%]">
@@ -106,7 +106,7 @@ const goBack = () => {
                             Register
                         </div>
                         <div class="w-fit h-fit mx-auto pb-[8px] pt-[35px] md:hidden">
-                            <img src="../../img/manthreed.png" class="object-contain h-[155px]" />
+                            <img src="/img/manthreed.png" class="object-contain h-[155px]" />
                         </div>
                         <div class="flex mb-[7px] md:mb-[19px] items-center">
                             <div class="text-[#fff] mont text-[12px] font-[400]">
@@ -190,14 +190,14 @@ const goBack = () => {
                                 <div></div>
                                 <div @click="catboard = !catboard"
                                     class="relative cursor-pointer left-[-25px] md:left-[-25px]">
-                                    <img src="../../img/chevron.svg" class="" />
+                                    <img src="/img/chevron.svg" class="" />
                                 </div>
                             </div>
                             <div class="flex w-[50%] items-center justify-between">
                                 <div></div>
                                 <div @click="groupboard = !groupboard"
                                     class="relative cursor-pointer left-[-15px] md:left-[-15px]">
-                                    <img src="../../img/chevron.svg" class="" />
+                                    <img src="/img/chevron.svg" class="" />
                                 </div>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ const goBack = () => {
             class="register_overlay py-[50px] flex md:block justify-center items-center z-[1000] w-full fixed top-0 h-full overflow-y-scroll">
             <div class="congrat_board md:mx-auto md:py-[73px] md:px-[54px] py-[28px] px-[35px] w-[80%] md:w-[50%]">
                 <div class="w-fit mb-[15px] mx-auto md:mb-[10px] h-fit">
-                    <img src="../../img/congratulation.png" class="object-contain h-[184.924px] md:h-[321px]" />
+                    <img src="/img/congratulation.png" class="object-contain h-[184.924px] md:h-[321px]" />
                 </div>
                 <div class="w-fit mx-auto">
                     <div class="text-[#fff] mb-[6px] font-[600] text-[16px] md:text-[27px] mont mx-auto text-center w-fit">
@@ -277,7 +277,7 @@ const goBack = () => {
 
 <style scoped>
 main {
-    background: url('../../img/bgcontact.png');
+    background: url('/img/bgcontact.png');
     background-repeat: no-repeat;
     background-position: contain;
     background-size: 100% 100%;

@@ -12,7 +12,7 @@ const goRegister = () => {
     <div class="">
         <div class="md:flex mb-[0px] pt-[210px] w-full hidden justify-between">
             <div class="w-fit anime_star relative left-[185px] h-fit">
-                <img src="../../img/star.png" class="object-contain w-[26px] h-[32px]" />
+                <img src="/img/star.png" class="object-contain w-[26px] h-[32px]" />
             </div>
             <div>
                 <div
@@ -22,7 +22,7 @@ const goRegister = () => {
                 <div class="flex relative top-[-28px] items-center justify-between">
                     <div></div>
                     <div class="w-fit lg:flex h-fit relative right-[55px]">
-                        <img src="../../img/stroke.svg" class="" />
+                        <img src="/img/stroke.svg" class="" />
                     </div>
                 </div>
             </div>
@@ -35,11 +35,11 @@ const goRegister = () => {
             <div class="flex mb-[18px] justify-between items-center">
                 <div></div>
                 <div class="relative right-[9px]">
-                    <img src="../../img/stroketwo.svg" class="" />
+                    <img src="/img/stroketwo.svg" class="" />
                 </div>
             </div>
             <div class="w-fit anime_star h-fit relative left-[90px]">
-                <img src="../../img/star.png" class="object-contain w-[10px] h-[12px]" />
+                <img src="/img/star.png" class="object-contain w-[10px] h-[12px]" />
             </div>
         </div>
         <!--end mobile-->
@@ -51,8 +51,7 @@ const goRegister = () => {
                         <div></div>
                     </div>
                     <div class="w-fit relative right-[45px] h-fit">
-                        <img src="../../img/creative.png"
-                            class="md:w-[53px] object-contain md:h-[73px] w-[18px] h-[26px]" />
+                        <img src="/img/creative.png" class="md:w-[53px] object-contain md:h-[73px] w-[18px] h-[26px]" />
                     </div>
                 </div>
                 <div>
@@ -65,9 +64,9 @@ const goRegister = () => {
                     <div class="flex w-full justify-between">
                         <div></div>
                         <div class="flex top-[-40px] relative lg:top-[-100px] lg:left-[90px] md:top-[-80px] items-center">
-                            <img src="../../img/chain.png"
+                            <img src="/img/chain.png"
                                 class="md:w-[86px] object-contain md:h-[86px] w-[32.797px] h-[32.797px]" />
-                            <img src="../../img/fire.png"
+                            <img src="/img/fire.png"
                                 class="md:w-[58px] object-contain md:h-[58px] w-[22.119px] h-[22.119px]" />
                         </div>
                     </div>
@@ -96,9 +95,9 @@ const goRegister = () => {
             </div>
             <!--line 2 or flex-->
             <div class="lg:w-[50%] blend h-full">
-                <img loading="lazy" src="../../img/verseman.png"
+                <img loading="lazy" src="/img/verseman.png"
                     class="w-full hidden relative lg:block z-[15] bg-blend-hard-light object-cover lg:h-[715px] h-[715px]" />
-                <img loading="lazy" src="../../img/hackguy.png"
+                <img loading="lazy" src="/img/hackguy.png"
                     class="w-full lg:hidden bg-blend-hard-light object-cover lg:h-fit h-[362.395px]" />
             </div>
         </div>
