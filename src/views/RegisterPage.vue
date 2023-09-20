@@ -170,7 +170,8 @@ const goBack = () => {
                                     Category
                                 </div>
                                 <div>
-                                    <input v-model="categoryinp" readonly placeholder="Select your category" type="text"
+                                    <input @click="catboard = !catboard" v-model="categoryinp" readonly
+                                        placeholder="Select your category" type="text"
                                         class="w-full px-[29px] text-[#fff] mont text-[12px] md:text-[12px] font-[400] py-[13px] input_box focus:outline-none" />
                                 </div>
                             </div>
@@ -179,7 +180,8 @@ const goBack = () => {
                                     Group Size
                                 </div>
                                 <div>
-                                    <input v-model="groupinp" readonly placeholder="Select" type="text"
+                                    <input @click="groupboard = !groupboard" v-model="groupinp" readonly
+                                        placeholder="Select" type="text"
                                         class="w-full px-[29px] text-[#fff] mont text-[12px] md:text-[12px] font-[400] py-[13px] input_box focus:outline-none" />
                                 </div>
                             </div>

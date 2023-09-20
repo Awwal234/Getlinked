@@ -5,6 +5,7 @@ import serverBase from '../api/base'
 import { useRouter } from 'vue-router'
 import { ref, reactive } from 'vue'
 const router = useRouter()
+const respond = ref('')
 const form = reactive({
     firstname: '' as string,
     phone: '' as string,
@@ -25,9 +26,17 @@ const sendForm = async () => {
         form.firstname = ''
         form.message = ''
         console.log(response)
+        respond.value = 'Sent successfully'
+        setTimeout(() => {
+            respond.value = ''
+        }, 4000)
     }
     catch (err) {
         console.log(err)
+        respond.value = 'Error, please try again'
+        setTimeout(() => {
+            respond.value = ''
+        }, 4000)
     }
 }
 
@@ -109,6 +118,7 @@ const goBack = () => {
                             <input v-model="form.message" placeholder="Message" type="text"
                                 class="w-full px-[29px] pb-[160px] md:pb-[119px] text-[#fff] mont text-[16px] font-[400] pt-[13px] input_box focus:outline-none" />
                         </div>
+                        <div class="mb-[8px] clashmd font-[700] mt-[8px] text-[12px] text-[#fff]">{{ respond }}</div>
                         <div @click="sendForm"
                             class="rounded-[4px] mb-[41px] md:mb-[0px] mx-auto w-fit cursor-pointer text-[#fff] mont font-[400] text-[16px] py-[17px] px-[56px] text-center btn_sub">
                             Submit

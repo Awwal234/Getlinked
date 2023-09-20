@@ -1,5 +1,11 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router'
+const router = useRouter()
 import FaqsView from './FaqsView.vue';
+
+const goRegister = () => {
+    router.push('/register')
+}
 </script>
 
 <template>
@@ -53,7 +59,7 @@ import FaqsView from './FaqsView.vue';
                     the hackathon, including deadlines, use of specific technologies or APIs, and any other
                     competition-specific requirements.
                 </div>
-                <div
+                <div @click="goRegister"
                     class="w-fit px-[46px] md:px-[0px] md:w-[172px] mx-auto lg:mx-0 cursor-pointer register_button text-[#fff] mont font-[400] text-[14px] md:text-[16px] text-center md:py-[17px] py-[14.14px] rounded-[4px]">
                     Register
                 </div>

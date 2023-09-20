@@ -1,5 +1,11 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router'
+const router = useRouter()
 import FooterSection from './FooterSection.vue'
+
+const goRegister = () => {
+    router.push('/register')
+}
 </script>
 
 <template>
@@ -57,7 +63,7 @@ import FooterSection from './FooterSection.vue'
                             developement
                         </div>
                     </div>
-                    <div
+                    <div @click="goRegister"
                         class="w-fit px-[46px] mt-[20px] md:px-[0px] md:w-[172px] mx-auto cursor-pointer register_button text-[#fff] mont font-[400] text-[14px] md:text-[16px] text-center md:py-[17px] py-[14.14px] rounded-[4px]">
                         Register
                     </div>
