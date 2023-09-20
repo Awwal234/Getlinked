@@ -6,6 +6,7 @@ import { useRouter } from 'vue-router'
 import { ref, onMounted, reactive } from 'vue'
 const categories = ref([]) as any
 const categoryinp = ref('')
+const respond = ref('')
 const groupinp = ref('')
 const form = reactive({
     email: '',
@@ -76,6 +77,10 @@ const Submit = async () => {
         categoryinp.value = ''
     } catch (err) {
         console.log(err)
+        respond.value = 'Error, please try again'
+        setTimeout(() => {
+            respond.value = ''
+        }, 4000)
     }
 }
 onMounted(() => {
@@ -223,6 +228,7 @@ const goBack = () => {
                             </div>
                         </div>
                         <!--last-->
+                        <div class="text-[12px] mb-[8px] mt-[8px] font-[700] text-[red] clashmd">{{ respond }}</div>
                         <div class="text-[#ff26b9] mb-[12px] md:mb-[16px] mont text-[12px] font-[400]">
                             Please review your registration details before submitting
                         </div>
