@@ -10,9 +10,9 @@ import RulesSection from './RulesSection.vue';
                 <img src="/img/globe.png" class="" />
             </div>
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
-                <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
+                <div class="flex lg:w-full items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
                     <div
-                        class="text-[#fff] mx-auto lg:mx-0 lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashmd">
+                        class="text-[#fff] lg:w-[85%] mx-auto lg:mx-0 lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashsd">
                         Introduction to getlinked <span class="text-[#d434fe]">tech Hackathon 1.0</span>
                     </div>
                     <div class="w-fit h-fit">

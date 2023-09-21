@@ -9,7 +9,7 @@ import JudgingView from './JudgingView.vue';
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
                 <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
                     <div
-                        class="text-[#fff] mx-auto lg:mx-0 lg:w-[80%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashmd">
+                        class="text-[#fff] mx-auto lg:mx-0 lg:w-[80%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashsd">
                         Rules and <span class="text-[#d434fe]">Guidelines</span>
                     </div>
                     <div class="w-fit h-fit">

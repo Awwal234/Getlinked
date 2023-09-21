@@ -4,13 +4,13 @@ import PartnersSector from './PartnersSector.vue'
 
 <template>
     <div>
-        <div class="md:pt-[61px] pt-[29px] bg_space pb-[55px] md:pb-[62px] w-full px-[57px] md:px-[128px]">
+        <div class="md:pt-[61px] pt-[29px] sg_space pb-[55px] md:pb-[62px] w-full px-[57px] md:px-[128px]">
             <div class="lg:flex mb-[40px] md:mb-[70px] w-full">
                 <div class="hidden w-[60%] lg:block"></div>
                 <div class="lg:w-[40%] w-fit mx-auto lg:mx-0">
                     <div>
                         <div
-                            class="text-[#fff] mb-[3px] md:mb-[7px] mx-auto lg:mx-0 lg:w-[60%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashmd">
+                            class="text-[#fff] mb-[3px] md:mb-[7px] mx-auto lg:mx-0 lg:w-[60%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashsd">
                             Prizes and<span class="text-[#d434fe]"> Rewards</span>
                         </div>
                         <div
@@ -38,8 +38,8 @@ import PartnersSector from './PartnersSector.vue'
 </template>
 
 <style scoped>
-.bg_space {
-    background-image: url("/img/photoburn.png"), lightgray 0px -0.093px / 100% 109.967%;
+.sg_space {
+    background-image: url("/img/bgcontact.png");
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;

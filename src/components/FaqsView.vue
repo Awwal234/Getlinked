@@ -9,7 +9,7 @@ import TimeLine from './TimeLine.vue';
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
                 <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
                     <div id="faqs"
-                        class="text-[#fff] mx-auto lg:mx-0 lg:w-[80%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashmd">
+                        class="text-[#fff] mx-auto lg:mx-0 lg:w-[80%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashsd">
                         Frequently Ask <span class="text-[#d434fe]">Question</span>
                     </div>
                     <div class="w-fit h-fit">

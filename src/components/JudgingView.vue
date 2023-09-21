@@ -5,6 +5,7 @@ import FaqsView from './FaqsView.vue';
 
 const goRegister = () => {
     router.push('/register')
+    window.scroll(0, 0)
 }
 </script>
 
@@ -18,7 +19,7 @@ const goRegister = () => {
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
                 <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
                     <div id="overview"
-                        class="text-[#fff] mx-auto lg:mx-0 w-[90%] lg:w-[80%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashmd">
+                        class="text-[#fff] mx-auto lg:mx-0 w-[90%] lg:w-[80%] lg:text-left text-center text-[20px] md:text-[32px] font-[700] clashsd">
                         Judging Criteria <span class="text-[#d434fe]">Key attributes</span>
                     </div>
                     <div class="w-fit h-fit">

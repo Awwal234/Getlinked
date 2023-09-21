@@ -107,7 +107,7 @@ const goBack = () => {
                 <!---->
                 <div class="w-full md:mx-auto lg:mx-0 md:w-[80%] lg:w-[60%]">
                     <div class="md:w-full md:mx-auto contactboard md:py-[75px] md:px-[20px] lg:px-[92px] w-full">
-                        <div class="text-[#d434fe] md:mb-[29px] clashmd text-[20px] font-[600]">
+                        <div class="text-[#d434fe] md:mb-[29px] md:text-[32px] clashmd text-[20px] font-[600]">
                             Register
                         </div>
                         <div class="w-fit h-fit mx-auto pb-[8px] pt-[35px] md:hidden">
@@ -115,7 +115,11 @@ const goBack = () => {
                         </div>
                         <div class="flex mb-[7px] md:mb-[19px] items-center">
                             <div class="text-[#fff] mont text-[12px] font-[400]">
-                                Be part of this movement! ..........
+                                Be part of this movement! <span class="text-[#d434fe]">__ __ _____ _____ __</span>
+                            </div>
+                            <div class="w-fit h-fit">
+                                <img src="/img/walkguys.png"
+                                    class="md:w-[51px] object-contain w-[26.471px] relative top-[-15px] md:left-[-70px] left-[-55px] h-[26.471px] md:h-[30px]" />
                             </div>
                         </div>
                         <div

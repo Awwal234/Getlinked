@@ -6,7 +6,7 @@
     <div class="bg-[#100b20] py-[51px] px-[54px] md:py-[83px] md:px-[128px]">
         <div class="md:items-top flex flex-col md:flex-row w-full">
             <div class="md:w-[50%] w-full">
-                <div class="text-[#fff] mb-[6px] clashmd text-[20px] md:text-[30px] font-[700]">
+                <div class="text-[#fff] mb-[6px] clashsd text-[20px] md:text-[30px] font-[700]">
                     get<span class="text-[#d434f3]">linked</span>
                 </div>
                 <div class="md:w-[80%] md:mb-[82px] mb-[41px] text-[#fff] mont text-[12px] font-[400] leading-[172.4%]">

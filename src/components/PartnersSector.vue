@@ -9,7 +9,7 @@ import PrivacyPage from './PrivacyPage.vue'
             <div class="w-fit h-fit mx-auto">
                 <div class="w-fit mx-auto mb-[41px] md:mb-[65px]">
                     <div
-                        class="text-[#fff] mb-[21px] md:mb-[12px] mx-auto  text-center text-[20px] md:text-[32px] font-[700] clashmd">
+                        class="text-[#fff] mb-[21px] md:mb-[12px] mx-auto  text-center text-[20px] md:text-[32px] font-[700] clashsd">
                         Partners and Sponsors
                     </div>
                     <div class="w-fit leading-[172.4%] text-[14px] text-center md:w-[60%] mont text-[#fff] mx-auto h-fit">

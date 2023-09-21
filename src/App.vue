@@ -8,11 +8,27 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
   font-family: 'clashmd';
   src: url(./fonts/ClashDisplay-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'unica';
+  src: url(./fonts/UnicaOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'clashbd';
+  src: url(./fonts/ClashDisplay-Bold.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'clashsd';
+  src: url(./fonts/ClashDisplay-Semibold.otf) format("truetype");
 }
 
 @font-face {
@@ -28,8 +44,20 @@ import { RouterLink, RouterView } from 'vue-router'
   font-family: 'Inter', sans-serif;
 }
 
+.clashsd {
+  font-family: 'clashsd';
+}
+
 .clashmd {
   font-family: 'clashmd';
+}
+
+.unica {
+  font-family: 'unica';
+}
+
+.clashbd {
+  font-family: 'clashbd';
 }
 
 .clashrg {

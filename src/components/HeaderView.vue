@@ -30,10 +30,10 @@ onMounted(() => {
 </script>
 
 <template>
-    <div :class="contactCheck ? 'hidden lg:block' : 'block'" class="w-full z-[100] fixed top-0 h-fit">
-        <div :class="contactCheck ? 'bg-[#150E2A]' : 'bg-[#150328]'"
+    <div :class="contactCheck ? 'hidden lg:block' : 'block'" class="w-full z-[100] lg:z-[100] lg:fixed fixed top-0 h-fit">
+        <div :class="contactCheck ? 'bg-[#150E2A]' : 'lg:bg-[transparent] h_space'"
             class="md:pt-[67px] px-[54px] items-center pt-[28px] pb-[28px] flex justify-between md:px-[128px] md:pb-[30px] ">
-            <div @click="goHome" class="clashmd cursor-pointer text-[#fff] font-[700] text-[15px] md:text-[36px]">
+            <div @click="goHome" class="clashbd cursor-pointer text-[#fff] font-[700] text-[15px] md:text-[36px]">
                 get<span class="text-[#d434fe]">linked</span>
             </div>
             <div class="items-center nav_hold">
@@ -152,5 +152,18 @@ onMounted(() => {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+.bg_space {
+    background: url("../../img/Bherobg.png");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: top;
+    background-size: 100% 100%;
+    background-blend-mode: hard-light;
+}
+
+.h_space {
+    background: rgba(21, 14, 40, 0.93);
 }
 </style>
