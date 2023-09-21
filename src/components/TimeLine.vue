@@ -19,9 +19,15 @@ import RewardsView from './RewardsView.vue'
                 </div>
             </div>
             <!--timeline web-->
-            <div class="w-full hidden md:block">
-                <div class="mx-auto mb-[11px] w-[4px] pb-[173px] bg-[#d434f3]"></div>
-                <div class="flex mb-[11px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+            <div class="w-fit mx-auto hidden md:block">
+                <div class="flex mb-[59px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+                    <div class="w-[40%]"></div>
+                    <div class="h-[53px] w-[53px]">
+                        <div class="mx-auto mb-[11px] w-[4px] h-[168px] pb-[8px] bg-[#d434f3]"></div>
+                    </div>
+                    <div class="w-[40%] mb-[5px]"></div>
+                </div>
+                <div class="flex mb-[11px] mt-[5px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
                     <div class="w-[40%]">
                         <div class="text-[#d434fe] text-right mb-[12px] mont text-[24px] font-[700]">
                             Hackathon Annoucement
@@ -31,7 +37,7 @@ import RewardsView from './RewardsView.vue'
                             get ready to register
                         </div>
                     </div>
-                    <div class="w-[53px] flex text-center justify-center h-[53px] round_color rounded-full">
+                    <div class="w-[53px] mx-auto flex text-center justify-center h-[53px] round_color rounded-full">
                         <span class="relative top-[7px] text-[#fff] mont text-[24px] font-[700]">1</span>
                     </div>
                     <div class="text-[#d434fe] w-[40%] text-left mb-[12px] mont text-[24px] font-[700]">
@@ -39,7 +45,13 @@ import RewardsView from './RewardsView.vue'
                     </div>
                 </div>
                 <!--2-->
-                <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                <div class="flex mb-[40px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+                    <div class="w-[40%]"></div>
+                    <div class="h-[53px] w-[53px]">
+                        <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                    </div>
+                    <div class="w-[40%] mb-[5px]"></div>
+                </div>
                 <div class="flex mb-[11px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
                     <div class="text-[#d434fe] w-[40%] text-right mb-[12px] mont text-[24px] font-[700]">
                         November 18, 2023
@@ -59,7 +71,13 @@ import RewardsView from './RewardsView.vue'
                 </div>
                 <!--end 2-->
                 <!--3-->
-                <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                <div class="flex mb-[40px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+                    <div class="w-[40%]"></div>
+                    <div class="h-[53px] w-[53px]">
+                        <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                    </div>
+                    <div class="w-[40%] mb-[5px]"></div>
+                </div>
                 <div class="flex mb-[11px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
                     <div class="w-[40%]">
                         <div class="text-[#d434fe] text-right mb-[12px] mont text-[24px] font-[700]">
@@ -78,7 +96,13 @@ import RewardsView from './RewardsView.vue'
                 </div>
                 <!---->
                 <!--4-->
-                <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                <div class="flex mb-[40px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+                    <div class="w-[40%]"></div>
+                    <div class="h-[53px] w-[53px]">
+                        <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                    </div>
+                    <div class="w-[40%] mb-[5px]"></div>
+                </div>
                 <div class="flex mb-[11px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
                     <div class="text-[#d434fe] w-[40%] text-right mb-[12px] mont text-[24px] font-[700]">
                         November 18, 2023
@@ -98,7 +122,13 @@ import RewardsView from './RewardsView.vue'
                 </div>
                 <!---->
                 <!--5-->
-                <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                <div class="flex mb-[40px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+                    <div class="w-[40%]"></div>
+                    <div class="h-[53px] w-[53px]">
+                        <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                    </div>
+                    <div class="w-[40%] mb-[5px]"></div>
+                </div>
                 <div class="flex mb-[11px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
                     <div class="w-[40%]">
                         <div class="text-[#d434fe] text-right mb-[12px] mont text-[24px] font-[700]">
@@ -118,7 +148,13 @@ import RewardsView from './RewardsView.vue'
                 </div>
                 <!---->
                 <!--6-->
-                <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                <div class="flex mb-[40px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
+                    <div class="w-[40%]"></div>
+                    <div class="h-[53px] w-[53px]">
+                        <div class="mx-auto mb-[11px] w-[4px] pb-[86px] bg-[#d434f3]"></div>
+                    </div>
+                    <div class="w-[40%] mb-[5px]"></div>
+                </div>
                 <div class="flex mb-[11px] lg:space-x-[86px] md:space-x-[50px] w-full items-center">
                     <div class="text-[#d434fe] w-[40%] text-right mb-[12px] mont text-[24px] font-[700]">
                         November 18, 2023
