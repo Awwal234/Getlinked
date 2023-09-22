@@ -5,7 +5,7 @@ import RewardsView from './RewardsView.vue'
 <template>
     <div>
         <div
-            class="md:pt-[61px] linked_border lg:items-center pt-[29px] pb-[55px] md:pb-[62px] w-full px-[57px] md:px-[128px]">
+            class="md:pt-[61px] linked_border lg:items-center pt-[29px] pb-[55px] md:pb-[62px] w-full px-[48px] md:px-[128px]">
             <div class="w-fit h-fit mx-auto">
                 <div class="w-fit mx-auto mb-[56px] md:mb-[91px]">
                     <div id="timeline"

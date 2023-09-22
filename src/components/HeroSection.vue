@@ -33,7 +33,7 @@ const goRegister = () => {
                 <div class="text-[#fff] mb-[5px] text-center mx-auto mont text-[16px] italic font-[700]">
                     Igniting a Revolution in HR Innovation
                 </div>
-                <div class="flex mb-[18px] justify-between items-center">
+                <div class="flex mb-[11px] justify-between items-center">
                     <div></div>
                     <div class="relative right-[9px]">
                         <img src="/img/stroketwo.svg" class="" />
@@ -46,7 +46,7 @@ const goRegister = () => {
             <!--end mobile-->
             <div
                 class="w-full linked_border lg:items-top lg:flex pb-[0px] pl-[0px] pr-[0px] md:pr-[128px] md:pl-[128px] lg:pl-[128px] lg:pr-[0px]">
-                <div class="w-full pl-[33px] pr-[33px] md:pr-[0px] md:pl-[0px] mx-auto lg:mx-0 lg:w-[50%]">
+                <div class="w-full px-[48px] md:pr-[0px] md:pl-[0px] mx-auto lg:mx-0 lg:w-[50%]">
                     <div class="flex flex-row w-[100%] justify-between">
                         <div>
                             <div></div>
@@ -58,11 +58,11 @@ const goRegister = () => {
                     <div>
                         <div class="w-full">
                             <div
-                                class="font-[700] leading-[normal] z-[10] relative text-center lg:text-left mx-auto lg:mx-0 text-[#fff] text-[32px] md:text-[60px] lg:text-[80px] clashbd">
+                                class="font-[700] md:h-fit leading-[normal] z-[10] relative left-[-20px] md:left-[0px] text-center lg:text-left mx-auto lg:mx-0 text-[#fff] text-[32px] md:text-[60px] lg:text-[80px] clashbd">
                                 getlinked Tech Hackathon <span class="text-[#d434fe]">1.0</span>
                             </div>
                         </div>
-                        <div class="flex w-full justify-between">
+                        <div class="flex relative w-full justify-between">
                             <div></div>
                             <div
                                 class="flex top-[-40px] relative lg:top-[-100px] lg:left-[90px] md:top-[-80px] items-center">
@@ -74,7 +74,7 @@ const goRegister = () => {
                         </div>
                     </div>
                     <div
-                        class="relative lg:leading-[166%] lg:w-[75%] lg:mb-[-45px] w-[80%] md:w-[85%] text-center lg:text-left text-[13px] mx-auto lg:mx-0 md:text-[20px] text-[#fff] font-[400] mont top-[-25px] md:top-[-40px] lg:top-[-80px]">
+                        class="relative px-[15px] md:px-[0px] lg:leading-[166%] lg:w-[75%] lg:mb-[-45px] w-full md:w-[85%] text-center lg:text-left text-[13px] mx-auto lg:mx-0 md:text-[20px] text-[#fff] font-[400] mont top-[-25px] md:top-[-40px] lg:top-[-80px]">
                         Participate in getlinked tech Hackathon 2023
                         stand a chance to win a Big prize
                     </div>
@@ -98,9 +98,9 @@ const goRegister = () => {
                 <!--line 2 or flex-->
                 <div class="lg:w-[50%] blend h-fit">
                     <img loading="lazy" src="/img/versemannew.png"
-                        class="w-full hidden lg:relative lg:block z-[15] bg-blend-hard-light object-contain lg:h-full h-full" />
+                        class="w-full blend hidden lg:relative lg:block z-[15] bg-blend-hard-light object-contain lg:h-full h-full" />
                     <img loading="lazy" src="/img/hackguy.png"
-                        class="w-full lg:hidden bg-blend-hard-light object-contain lg:h-fit h-full" />
+                        class="w-full lg:hidden blend object-contain lg:h-fit h-full" />
                 </div>
             </div>
         </div>
@@ -144,8 +144,20 @@ const goRegister = () => {
 .bg_space {
     background-image: url("../../img/Bherobg.png");
     background-repeat: no-repeat;
-    background-position: center;
+    object-fit: contain;
+    background-position: left;
     background-size: 100% 100%;
     background-blend-mode: hard-light;
+}
+
+@media only screen and (max-width:768px) {
+    .bg_space {
+        background-image: url("../../img/bgsmall.png");
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: top;
+        background-size: 100%;
+        background-blend-mode: hard-light;
+    }
 }
 </style>

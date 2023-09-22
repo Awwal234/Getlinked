@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="bg-[#100b20] py-[51px] px-[54px] md:py-[83px] md:px-[128px]">
+    <div class="bg-[#100b20] py-[51px] px-[58px] md:py-[83px] md:px-[128px]">
         <div class="md:items-top flex flex-col md:flex-row w-full">
             <div class="md:w-[50%] w-full">
                 <div class="text-[#fff] mb-[6px] clashsd text-[20px] md:text-[30px] font-[700]">

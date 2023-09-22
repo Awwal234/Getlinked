@@ -49,7 +49,7 @@ const goBack = () => {
 <template>
     <main class="bg-[#150e28]">
         <HeaderView />
-        <div class="px-[54px] md:px-[128px]">
+        <div class="px-[48px] md:px-[128px]">
             <div @click="goBack" class="lg:hidden pt-[47px]">
                 <img src="/img/back.svg" class="" />
             </div>

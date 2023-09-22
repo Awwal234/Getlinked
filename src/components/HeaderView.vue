@@ -32,7 +32,7 @@ onMounted(() => {
 <template>
     <div :class="contactCheck ? 'hidden lg:block' : 'block'" class="w-full z-[100] lg:z-[100] lg:fixed fixed top-0 h-fit">
         <div :class="contactCheck ? 'bg-[#150E2A]' : 'lg:bg-[transparent] h_space'"
-            class="md:pt-[67px] px-[54px] items-center pt-[28px] pb-[28px] flex justify-between md:px-[128px] md:pb-[30px] ">
+            class="md:pt-[67px] px-[48px] items-center pt-[28px] pb-[28px] flex justify-between md:px-[128px] md:pb-[30px] ">
             <div @click="goHome" class="clashbd cursor-pointer text-[#fff] font-[700] text-[15px] md:text-[36px]">
                 get<span class="text-[#d434fe]">linked</span>
             </div>

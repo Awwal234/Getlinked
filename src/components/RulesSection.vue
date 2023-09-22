@@ -5,7 +5,7 @@ import JudgingView from './JudgingView.vue';
 <template>
     <div>
         <div
-            class="md:pt-[61px] bg_space flex flex-col-reverse lg:flex-row linked_border lg:items-center space-y-[22.15px] lg:space-x-[40px] lg:space-y-[0px] pt-[29px] pb-[55px] md:pb-[62px] w-full px-[57px] lg:flex md:px-[128px]">
+            class="md:pt-[61px] bg_space flex flex-col-reverse lg:flex-row linked_border lg:items-center space-y-[22.15px] lg:space-x-[40px] lg:space-y-[0px] pt-[29px] pb-[55px] md:pb-[62px] w-full px-[48px] lg:flex md:px-[128px]">
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
                 <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[16px]">
                     <div

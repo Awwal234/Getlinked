@@ -11,7 +11,7 @@ const goRegister = () => {
 <template>
     <div>
         <div
-            class="md:pt-[61px] bg_space lg:flex-row linked_border lg:items-center space-y-[22.15px] lg:space-x-[40px] lg:space-y-[0px] pt-[29px] pb-[55px] md:pb-[62px] w-full px-[57px] lg:flex md:px-[128px]">
+            class="md:pt-[61px] bg_space lg:flex-row linked_border lg:items-center space-y-[22.15px] lg:space-x-[40px] lg:space-y-[0px] pt-[29px] pb-[55px] md:pb-[62px] w-full px-[48px] lg:flex md:px-[128px]">
             <div class="lg:w-[50%] w-fit h-fit lg:mx-0 mx-auto">
                 <div class="flex items-center w-fit mx-auto lg:mx-0 mb-[9px] md:mb-[17px]">
                     <div
@@ -51,14 +51,16 @@ const goRegister = () => {
                         </div>
                     </div>
                     <div class="flex mb-[24px] md:mb-[18px] items-baseline space-x-[14px]">
-                        <div><img src="/img/check.svg" class="" /></div>
-                        <div class="text-[#fff] mont text-[12px] md:text-[14px] leading-[175.9%] md:leading-[216.4%]">
+                        <div class="w-[8%]"><img src="/img/check.svg" class="" /></div>
+                        <div
+                            class="text-[#fff] w-[100%] mont text-[12px] md:text-[14px] leading-[175.9%] md:leading-[216.4%]">
                             The Standard License grants you a non-exclusive right to navigate and register for our event
                         </div>
                     </div>
                     <div class="flex items-baseline space-x-[14px]">
-                        <div><img src="/img/check.svg" class="" /></div>
-                        <div class="text-[#fff] mont text-[12px] md:text-[14px] leading-[175.9%] md:leading-[216.4%]">
+                        <div class="w-[8%]"><img src="/img/check.svg" class="" /></div>
+                        <div
+                            class="text-[#fff] w-[100%] mont text-[12px] md:text-[14px] leading-[175.9%] md:leading-[216.4%]">
                             You are licensed to use the item available at any free source sites, for your project
                             developement
                         </div>

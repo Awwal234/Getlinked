@@ -4,7 +4,7 @@ import PartnersSector from './PartnersSector.vue'
 
 <template>
     <div>
-        <div class="md:pt-[61px] pt-[29px] sg_space pb-[55px] md:pb-[62px] w-full px-[57px] md:px-[128px]">
+        <div class="md:pt-[61px] pt-[29px] sg_space pb-[55px] md:pb-[62px] w-full px-[48px] md:px-[128px]">
             <div class="lg:flex mb-[40px] md:mb-[70px] w-full">
                 <div class="hidden w-[60%] lg:block"></div>
                 <div class="lg:w-[40%] w-fit mx-auto lg:mx-0">
