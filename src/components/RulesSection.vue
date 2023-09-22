@@ -17,7 +17,8 @@ import JudgingView from './JudgingView.vue';
                             class="w-[8px] relative lg:top-[-60px] left-[40px] opacity-[0.5] h-[10px] md:w-[26px] md:h-[32px]" />
                     </div>
                 </div>
-                <div class="text-center text-[#fff] md:text-[14px] mont text-[13px] mx-auto lg:mx-0 lg:text-left">
+                <div
+                    class="text-center leading-[27.5px] text-[#fff] md:text-[14px] mont text-[13px] mx-auto lg:mx-0 lg:text-left">
                     Our tech hackathon is a melting pot of visionaries, and
                     its purpose is as clear as day: to shape the future.
                     Whether you're a coding genius, a design maverick, or a

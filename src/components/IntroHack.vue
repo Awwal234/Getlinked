@@ -19,7 +19,8 @@ import RulesSection from './RulesSection.vue';
                         <img src="/img/starpu.png" class="w-[8px] h-[10px] md:w-[30px] md:h-[36px]" />
                     </div>
                 </div>
-                <div class="text-center text-[#fff] md:text-[14px] mont text-[13px] mx-auto lg:mx-0 lg:text-left">
+                <div
+                    class="text-center text-[#fff] md:text-[14px] mont text-[13px] leading-[27.5px] mx-auto lg:mx-0 lg:text-left">
                     Our tech hackathon is a melting pot of visionaries, and
                     its purpose is as clear as day: to shape the future.
                     Whether you're a coding genius, a design maverick, or a

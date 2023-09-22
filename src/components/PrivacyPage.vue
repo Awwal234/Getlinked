@@ -36,7 +36,7 @@ const goRegister = () => {
                 <div
                     class="rounded-[5px] py-[45px] px-[15px] md:py-[59px] md:px-[72px] privacy_board border-[1px] border-[#d434fe]">
                     <div
-                        class="text-[#fff] mb-[21px] md:mb-[24px] text-center lg:text-left text-[12px] mont md:text-[14px] font-[400] md:leading-[216.4%]">
+                        class="text-[#fff] leading-[216.4%] mb-[21px] md:mb-[24px] text-center lg:text-left text-[12px] mont md:text-[14px] font-[400] md:leading-[216.4%]">
                         At getlinked tech Hackathon 1.0, we value your privacy and are committed to protecting your personal
                         information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data
                         when you participate in our tech hackathon event. By participating in our event, you consent to the
